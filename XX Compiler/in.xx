@@ -1,0 +1,23 @@
+[C_Code]
+typedef struct Test {
+	int value;
+} Test;
+[/C_Code]
+
+func main() -> _ {
+
+	[C_Code]
+	Test test = (Test) {30};
+	printf("%d\n", test.value);
+	[/C_Code]
+
+	i32 val_test = 30
+	main2(val_test)
+}
+
+func main2(f64 val_i_need) -> _ {
+	[C_Code]
+	printf("%f\n", val_i_need + 3000000);
+	[/C_Code]
+	i32 var_not_viable = 30
+}
